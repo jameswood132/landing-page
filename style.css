@@ -1,0 +1,24 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero, .footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+h2 {
+    font-size: 48px;
+    font: bold;
+    color: #F9FAF8;
+}
+
+.footer {
+    justify-content: space-around;
+}
