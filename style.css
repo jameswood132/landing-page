@@ -15,7 +15,7 @@ body {
     padding: 50px 250px;
 }
 
-img {
+#hero-image {
     width: 750px;
     height: 300px;
     padding-left: 250px;
@@ -63,19 +63,44 @@ ul li {
     background-color: #E5E7EB;
     color: #1F2937;
     font-size: 36px;
-    padding: 50px 250px;
+    padding: 50px 500px;
     text-align: justify;
 }
-button {
+
+.call {
+    padding: 100px 300px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
     background-color: #3882F6;
-    border: none;
+    padding: 25px 200px;
+    border-radius: 25px;
+    color:#E5E7EB;
+}
+
+
+.btn {
+    background-color: #3882F6;
+    border: 2px solid black;
     color: #F9FAF8;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
     padding: 10px 35px;
     border-radius: 12px;
+}
 
+.top {
+    border: none;
+}
+
+.bottom {
+    width: 150px;
+    height: 40px;
+    margin-top: 40px;
+    border-color: white;
 }
 
 h2 {
@@ -84,11 +109,41 @@ h2 {
     color: #F9FAF8;
 }
 
+h3 {
+    font-size: 36px;
+    font: bold;
+    color: #1F2937;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 250px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 220px;
+}
+
+#placeholder {
+    width: 150px;
+    height: 150px;
+    
+}
+
 .footer {
     display: flex;
     justify-content: space-around;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 0 50px;
+    padding: 25px 50px;
     
 }
